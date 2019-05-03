@@ -1,6 +1,8 @@
 
 # Weather Web App
 
+![Weather Web App image](https://res.cloudinary.com/cambridge-gigs/image/upload/v1556904801/weather-test_qcqrxw.png)
+
 No web development course is complete without a project collecting some data from an API, and for this mini project, the data type is the weather. The aim is to build a weather web app that locates the visitor and is then able to get the local weather data for that location. The weather API I used was Weather Underground because it provided a comprehensive amount of weather data, including live weather data as well as weekly forecasts. The graphics provided by Weather Underground were also very aesthetically pleasing (especially during the sunny weather!). Another criterion to meet in this project was to enable visitors to choose between degrees Fahrenheit and degrees Celsius. I decided to use a switch button so that I could practice editing a rather complex button layout.
 
 In this project I learned:
