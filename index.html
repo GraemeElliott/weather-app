@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Web App</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  
+     <div id="current-forecast">
+       
+       <div id="forecast-container">
+        <div id="location"></div>
+        <div id="forecast-weather"></div>      
+        <div id="forecast-icon"></div>
+        <div id="cond-temp"></div>
+        <div id="cond-feels-like"></div>
+        
+      <div id="high-low-container">
+          
+         <div id="forecast-high">High: <span id="temp-high"></span></div>
+         <div id="forecast-low"> Low: <span id="temp-low"></span></div>
+            
+      </div>
+        
+        <div id="switch-wrapper">
+          <input type="checkbox" name="temp-toggle" id="toggle" class="celcius">
+          <label for="toggle"></label>
+          <div id="temp-labels"> <span id="c-temp-label">&#8451</span> / <span id="f-temp-label">&#8457</span>
+          </div>
+     </div>         
+  </div>   
+</div> <!-- Current Conditions End  -->   
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="script.js"></script>    
+</body>
+</html>
